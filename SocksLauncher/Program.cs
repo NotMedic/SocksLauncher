@@ -42,6 +42,7 @@ namespace SocksLauncher
                 comms);
 
             sock.Start();
+            //Comment this out to have it run inside a thread in a process. Uncomment it to have it run as a standalone binary.
             //Console.ReadLine();
 
         }
